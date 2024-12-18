@@ -1,0 +1,927 @@
+.desktop {
+    display: flex;
+    flex-direction: column;
+    min-width: 1200px;
+    align-items: flex-start;
+    position: relative;
+    background-color: #ffffff;
+  }
+  
+  .desktop .hero {
+    display: flex;
+    flex-direction: column;
+    width: 1728px;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .container {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+  }
+  
+  .desktop .div {
+    display: flex;
+    flex-direction: column;
+    width: 1728px;
+    align-items: center;
+    gap: 64px;
+    padding: 64px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+  }
+  
+  .desktop .img {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .CTA {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1728px;
+    align-items: center;
+    gap: 44px 64px;
+    padding: 64px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+  }
+  
+  .desktop .container-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-width: 484px;
+    align-items: center;
+    gap: 32px;
+    padding: 64px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: #2463eb;
+    border-radius: 20px;
+  }
+  
+  .desktop .container-2 {
+    display: flex;
+    flex-direction: column;
+    min-width: 484px;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .div-2 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .t-title {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 64px;
+  }
+  
+  .desktop .t-content {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  
+  .desktop .button {
+    display: inline-flex;
+    height: 58px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 0px 24px;
+    position: relative;
+    background-color: #fcfcfc;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #b3b3b3;
+  }
+  
+  .desktop .t-learn-more {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 32px;
+    white-space: nowrap;
+  }
+  
+  .desktop .features {
+    position: relative;
+    width: 1728px;
+    height: 675px;
+    background-color: #ffffff;
+  }
+  
+  .desktop .overlap-group {
+    position: absolute;
+    width: 1283px;
+    height: 573px;
+    top: 44px;
+    left: 288px;
+  }
+  
+  .desktop .m {
+    position: absolute;
+    width: 673px;
+    height: 573px;
+    top: 0;
+    left: 610px;
+    object-fit: cover;
+  }
+  
+  .desktop .t-subtitle {
+    position: absolute;
+    width: 510px;
+    top: 314px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 37px;
+  }
+  
+  .desktop .p {
+    position: absolute;
+    width: 656px;
+    top: 173px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: 64px;
+  }
+  
+  .desktop .header {
+    position: absolute;
+    width: 92px;
+    top: 67px;
+    left: 67px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32.8px;
+    letter-spacing: 0;
+    line-height: 39.7px;
+    white-space: nowrap;
+  }
+  
+  .desktop .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    font-size: 45px;
+  }
+  
+  .desktop .container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .card-user {
+    min-width: 524px;
+    gap: 16px;
+    padding: 16px;
+    flex: 1;
+    flex-grow: 1;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #b3b3b3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .desktop .div-3 {
+    gap: 12px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .avatar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .desktop .a-avatar {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    margin-left: -1.00px;
+    border-radius: 1000px;
+    border: 1px solid;
+    border-color: #b3b3b3;
+    background-image: url(icons/a_user01_avatar.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .container-4 {
+    display: inline-flex;
+    flex-direction: column;
+    height: 50px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .t-name {
+    position: relative;
+    width: fit-content;
+    margin-top: -4.00px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .desktop .t-introduce {
+    width: fit-content;
+    margin-bottom: -2.00px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #1a1a1a5c;
+    font-size: 16px;
+    line-height: 24px;
+    white-space: nowrap;
+    position: relative;
+    letter-spacing: 0;
+  }
+  
+  .desktop .card-text {
+    gap: 10px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .desktop .t-review {
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    line-height: 32px;
+    position: relative;
+    letter-spacing: 0;
+  }
+  
+  .desktop .a-user-avatar {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    margin-left: -1.00px;
+    border-radius: 1000px;
+    border: 1px solid;
+    border-color: #b3b3b3;
+    background-image: url(icons/a_user02_avatar.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .a-avatar-2 {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    margin-left: -1.00px;
+    border-radius: 1000px;
+    border: 1px solid;
+    border-color: #b3b3b3;
+    background-image: url(icons/a_user03_avatar.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .a-avatar-3 {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    margin-left: -1.00px;
+    border-radius: 1000px;
+    border: 1px solid;
+    border-color: #b3b3b3;
+    background-image: url(icons/a_user04_avatar.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .a-avatar-4 {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    margin-left: -1.00px;
+    border-radius: 1000px;
+    border: 1px solid;
+    border-color: #b3b3b3;
+    background-image: url(icons/a_user05_avatar.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .a-avatar-5 {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    margin-left: -1.00px;
+    border-radius: 1000px;
+    border: 1px solid;
+    border-color: #b3b3b3;
+    background-image: url(icons/a_user06_avatar.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .text-wrapper-2 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #0c0c0c;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  
+  .desktop .container-5 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #b3b3b3;
+  }
+  
+  .desktop .container-6 {
+    display: flex;
+    width: 639px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+    position: relative;
+    align-self: stretch;
+  }
+  
+  .desktop .pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 16px 0px 16px 16px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .desktop .items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .check {
+    position: relative;
+    width: 32px;
+    height: 32px;
+  }
+  
+  .desktop .t {
+    position: relative;
+    flex: 1;
+    margin-top: -1.00px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  
+  .desktop .t-feature {
+    position: relative;
+    flex: 1;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  
+  .desktop .pricing-2 {
+    padding: 16px 0px 16px 16px;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .desktop .pricing-3 {
+    min-width: 400px;
+    justify-content: center;
+    padding: 24px;
+    align-self: stretch;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #b3b3b3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .desktop .header-2 {
+    flex-direction: column;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .t-basic-package {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #0c0c0c;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+  
+  .desktop .text-2 {
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px 4px;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .title {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 52px;
+    white-space: nowrap;
+  }
+  
+  .desktop .t-per-month {
+    position: relative;
+    flex: 1;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #0c0c0c;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  
+  .desktop .t-for-person-use {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #0c0c0c;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  
+  .desktop .button-2 {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    min-height: 44px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 0px 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #2463eb;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid;
+  }
+  
+  .desktop .t-get-started {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .desktop .container-7 {
+    display: flex;
+    width: 524px;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 8px;
+  }
+  
+  .desktop .a-user-avatar-2 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-top: -1.00px;
+    margin-left: -1.00px;
+    border-radius: 1000px;
+    border: 1px solid;
+    border-color: #b3b3b3;
+    background-image: url(image/IMG_1180.jpeg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .container-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .desktop .rating {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .container-9 {
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .t-user-review {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #0c0c0c;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+  
+  .desktop .t-user-name {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #0c0c0c;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .desktop .social-proof-FAQ {
+    display: flex;
+    flex-direction: column;
+    width: 1728px;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    padding: 64px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+  }
+  
+  .desktop .div-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .item {
+    align-items: flex-start;
+    gap: 16px;
+    padding: 20px 24px 24px;
+    background-color: #fcfcfc;
+    border-radius: 12px;
+    border: 1px solid;
+    border-color: #b3b3b3;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .container-10 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 0px 32px 0px 0px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .desktop .t-question {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  
+  .desktop .icon-r {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 20px;
+    left: 1548px;
+  }
+  
+  .desktop .div-5 {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 20px 24px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #fcfcfc;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #b3b3b3;
+  }
+  
+  .desktop .container-11 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 0px 16px 0px 0px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .desktop .t-answer {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #0c0c0c;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  
+  .desktop .icon-r-2 {
+    position: absolute;
+    width: 28px;
+    height: 20px;
+    top: 0;
+    left: 1524px;
+  }
+  
+  .desktop .t-2 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #0c0c0c;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .desktop .footer {
+    position: relative;
+    width: 1728px;
+    height: 675px;
+    background-color: #3c6d57;
+  }
+  
+  .desktop .overlap {
+    position: relative;
+    width: 1200px;
+    height: 675px;
+    background-image: url(image/m_image.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .desktop .t-title-2 {
+    position: absolute;
+    width: 1091px;
+    top: 288px;
+    left: 52px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 57.7px;
+    letter-spacing: 0;
+    line-height: 66.1px;
+    white-space: nowrap;
+  }
+  
+  .desktop .t-email-value {
+    position: absolute;
+    top: 392px;
+    left: 57px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 21.1px;
+    letter-spacing: 0;
+    line-height: 25.6px;
+    white-space: nowrap;
+  }
+  
+  .desktop .illustration {
+    position: absolute;
+    width: 12px;
+    height: 26px;
+    top: 447px;
+    left: 67px;
+  }
+  
+  .desktop .illustration-2 {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 447px;
+    left: 146px;
+  }
+  
+  .desktop .i {
+    position: absolute;
+    width: 28px;
+    height: 24px;
+    top: 448px;
+    left: 101px;
+  }
+  
+  .desktop .logo {
+    position: absolute;
+    width: 217px;
+    height: 72px;
+    top: 60px;
+    left: 75px;
+    overflow: hidden;
+  }
+  
+  .desktop .i-2 {
+    position: absolute;
+    width: 43px;
+    height: 32px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .t-company {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 22.6px;
+    letter-spacing: 0;
+    line-height: 27.2px;
+    white-space: nowrap;
+  }
+  
